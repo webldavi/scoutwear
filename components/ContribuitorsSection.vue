@@ -1,10 +1,10 @@
 <template>
   <section class="w-full flex gap-12 items-center justify-center py-4">
-    <img :src="GecanLogo" alt="44 GECAN RN"  class="max-w-32 lg:max-w-52"/>
+    <img :src="GecanLogo" alt="44 GECAN RN"  class="max-w-16 lg:max-w-52"/>
 
-    <img :src="UebLogo" alt="União dos escoteiros do brasil" class="max-w-32 lg:max-w-52"/>
+    <img :src="UebLogo" alt="União dos escoteiros do brasil" class="max-w-16 lg:max-w-52"/>
 
-    <img :src="GeuLogo" alt="31 GEU RN"  class="max-w-32 lg:max-w-52"/>
+    <img :src="GeuLogo" alt="31 GEU RN"  class="max-w-16 lg:max-w-52"/>
   </section>
 </template>
 

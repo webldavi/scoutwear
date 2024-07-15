@@ -25,7 +25,7 @@ export default defineNuxtConfig({
 
   fontawesome: {
     icons: {
-      solid: ['cart-shopping', 'location-dot'],
+      solid: ['cart-shopping', 'location-dot', 'bars'],
       regular: ['heart'],
       brands: ['whatsapp']
 

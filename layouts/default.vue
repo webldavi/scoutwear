@@ -4,10 +4,10 @@
     :class="[gridPadding(), {
       'bg-brand': !isHome
     }]">
-      <div class="w-full flex gap-8 items-center">
-        <img :src="BrandImage" alt="logo da scoutwear"/>
+      <div class="max-w-full w-full flex gap-8 items-center justify-between">
+        <img :src="BrandImage" alt="logo da scoutwear" class="h-7 md:h-12"/>
 
-        <Input placeholder="Pesquisar por..." class="flex-1"/>
+        <Input placeholder="Pesquisar por..." class="flex-1 hidden md:flex"/>
 
         <a>
           <FontAwesome :icon="['fab', 'whatsapp']" class="text-white h-6 w-6"/>
@@ -18,9 +18,11 @@
         </NuxtLink>
 
         <CartButton/>
+
+        <MobileDrawer/>
       </div>
 
-      <div class="w-full flex gap-8 items-center text-white font-medium font-[14px]">
+      <div class="w-full flex gap-8 items-center text-white font-medium font-[14px] hidden md:flex">
         <CepButton/>
 
         <NuxtLink>
@@ -46,7 +48,7 @@
       }">
         <DepartmentsPopover/>
 
-        <Button variant="ghost">
+        <Button variant="ghost" >
           Azul
         </Button>
 
