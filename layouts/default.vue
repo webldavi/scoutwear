@@ -19,7 +19,9 @@
 
         <CartButton/>
 
-        <MobileDrawer/>
+       <div class="md:hidden">
+         <MobileDrawer/>
+       </div>
       </div>
 
       <div class="w-full flex gap-8 items-center text-white font-medium font-[14px] hidden md:flex">
