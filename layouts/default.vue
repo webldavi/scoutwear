@@ -65,7 +65,7 @@
 </template>
 
 <script setup lang="ts">
-import BrandImage from '~/assets/images/Brand.svg'
+import BrandImage from '~/assets/images/Brand.png'
 import {Input} from "~/components/ui/input";
 import {gridPadding} from "~/utils/helpers";
 
